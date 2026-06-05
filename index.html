@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+  <nav>
+    <div class="logo">Diya Jabeen TP</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#internship">Internship</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+    <div class="hero-image">
+        <img src="assets/images/profile.jpg" alt="My Photo">
+    </div>
+
+    <div class="hero-content">
+
+        <h1>Hi, I'm <span>Diya Jabeen TP</span></h1>
+
+        <p class="title">
+            Software Engineer | Full Stack Developer | AI Enthusiast
+        </p>
+
+
+        <div class="social-links">
+            <a href="https://github.com/Diyajabeen" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/diya-jabeen-1216ab280" target="_blank">LinkedIn</a>
+            <a href="mailto:diyajabeen95@gmail.com">Email</a>
+            <a href="tel:+91 6238802007">Phone</a>
+        </div>                                                 
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section hidden">
+  <h2>About Me</h2>
+
+  <div class="about-card">
+    <p>
+      A Software Engineer specializing in Full Stack Development, AI systems, 
+      backend engineering, frontend development, and data analytics. Passionate about 
+      building scalable, efficient, and user-focused applications using modern technologies.
+    </p>
+  </div>
+  <div class="about-card">
+    <h3>Education</h3>
+    <h4>BTech in Computer Science and Engineering</h4>
+    <p>APJ Abdul Kalam Technological University | 2022-2026</p>
+    <p>CGPA : 6.81</p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section hidden">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">Python</div>
+    <div class="card">JavaScript</div>
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">MYSQL</div>
+    <div class="card">React</div>
+    <div class="card">Node.js</div>
+    <div class="card">FastAPI</div>
+    <div class="card">Tailwind CSS</div>
+    <div class="card">Excel</div>
+    <div class="card">GitHub</div>
+    <div class="card">AI Basics</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section hidden">
+  <h2>Projects</h2>
+  <div class="grid">
+
+    <div class="card project">
+      <h3>Personal Protfolio Website</h3>
+      <small>A personal portfolio showcasing my detalis, skills, projects, internships and certifications .</small>
+    </div>
+
+    <div class="card project">
+      <h3>Smart Finance & Expense Analytics System</h3>
+      <small>An AI system that tracks expenses and gives smart insights to help manage personal finances better.</small>
+    </div>
+
+
+    <div class="card project">
+      <h3>Intelligent Job Market Analytics Platform</h3>
+      <small>Job analytics dashboard UI with insights and filters.</small>
+    </div>
+
+
+    <div class="card project">
+      <h3>AI-Powered code review & bug detection system.</h3>
+      <small>An AI-powered system that automatically reviews code and detects bugs to improve code quality and reduce development errors.</small>
+    </div>
+
+    <div class="card project">
+      <h3>Smart Care System with Disease Prediction</h3>
+      <small>Built an intelligent system connecting volunteers with people in need using smart matching.</small>
+    </div>
+
+    <div class="card project">
+      <h3>FAQ Chatbot using NLP</h3>
+      <small>Developed an NLP-based FAQ chatbot using TensorFlow and NLTK.</small>
+    </div>
+  </div>
+</section>
+
+
+<!-- INTERNSHIP -->
+<section id="internship" class="section hidden">
+
+  <h2>Internship Experience</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>Data Science and Machine Learning Intern</h3>
+      
+      <small>
+        Applied data analysis, statistics, and machine learning to extract actionable insights.
+      </small>
+
+      <a class="cert-btn" href="assets/certificates/Datascience.jpg" target="_blank">
+        View Certificate
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>App Development with Flutter Intern</h3>
+
+      <small>
+        Built cross-platform Flutter applications with API integration and authentication implemented.
+      </small>
+
+      <a class="cert-btn" href="assets/certificates/APP.jpg" target="_blank">
+        View Certificate
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Data Analytics Intern</h3>
+     
+      <small>
+        Performed data cleaning, and dashboard creation using Python, Excel and visualization reporting.
+      </small>
+
+      <a class="cert-btn" href="assets/certificates/DA.jpg" target="_blank">
+        View Certificate
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Robotics with AI and Embedded systems </h3>
+
+      <small>
+        Developed embedded prototypes integrating sensors and ML and automation system.
+      </small>
+
+      <a class="cert-btn" href="assets/certificates/ROBOTICS.jpg" target="_blank">
+        View Certificate
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Cyber Security and Ethical Hacking </h3>
+     
+
+      <small>
+         Gaining practical experience in identifying vulnerabilities and understanding system security.
+      </small>
+
+      <a class="cert-btn" href="assets/certificates/cyber.jpg" target="_blank">
+        View Certificate
+      </a>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="section hidden">
+
+  <h2>Certifications</h2>
+
+ <div class="grid">
+
+  <div class="card">
+    <h3>Python and AI </h3>
+    <p>Bootcamp</p>
+    <a class="cert-btn" href="assets/certificates/AI.jpg" target="_blank">View Certificate</a>
+  </div>
+
+   <div class="card">
+    <h3>Data Analysis</h3>
+    <p>Workshop</p>
+    <a class="cert-btn" href="assets/certificates/Data.jpg" target="_blank">View Certificate</a>
+  </div>
+
+  <div class="card">
+    <h3>Data Science</h3>
+    <p>Quiz</p>
+    <a class="cert-btn" href="assets/certificates/Daly.jpg" target="_blank">View Certificate</a>
+  </div>
+
+  <div class="card">
+    <h3>Cyber Security</h3>
+    <p>Quiz</p>
+    <a class="cert-btn" href="assets/certificates/quiz cyber.jpg" target="_blank">View Certificate</a>
+  </div>
+
+  <div class="card">
+    <h3>Ai for Student</h3>
+    <p>Workshop</p>
+    <a class="cert-btn" href="assets/certificates/ai (2).jpg" target="_blank">View Certificate</a>
+  </div>
+
+
+  <div class="card">
+    <h3>SQL & Django Framework</h3>
+    <p>Add-on Course </p>
+    <a class="cert-btn" href="assets/certificates/Sql.jpg" target="_blank">View Certificate</a>
+  </div>
+
+  <div class="card">
+    <h3>Front-End Technologies </h3>
+    <p>Add-on Course</p>
+    <a class="cert-btn" href="assets/certificates/front.jpg" target="_blank">View Certificate</a>
+  </div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact Me</h2>
+
+  <form id="contact-form" class="contact-box">
+
+    <input
+      type="text"
+      name="user_name"
+      placeholder="Your Name"
+      required
+    >
+
+    <input
+      type="email"
+      name="user_email"
+      placeholder="Your Email"
+      required
+    >
+
+    <input
+      type="text"
+      name="subject"
+      placeholder="Subject"
+      required
+    >
+
+    <textarea
+      rows="5"
+      name="message"
+      placeholder="Message"
+      required
+    ></textarea>
+
+    <button type="submit">
+      Send Message
+    </button>
+
+  </form>
+
+  <p id="status"></p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Diya Jabeen TP. All Rights Reseverd.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
